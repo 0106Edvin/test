@@ -18,6 +18,11 @@ public class Main {
 		Employee e3 = new Employee("Mladen", "Teofilovic", 24, Employee.MALE);
 		Employee e4 = new Employee("Hajrudin", "Sehic", 25, Employee.MALE);
 		
+		System.out.println("**********************");
+		System.out.println("Testing a fitsSearch ");
+		System.out.println(e1.fitsSearch("26"));
+		System.out.println("**********************");
+		
 		/**
 		 * creating a list of employees
 		 * adding employees to list
